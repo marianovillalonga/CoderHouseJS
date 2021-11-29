@@ -29,6 +29,9 @@
                         <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Tienda Online</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="fa fa-shopping-cart"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -65,121 +68,87 @@
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             
-
-            <div class="row">
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://m.media-amazon.com/images/I/61m1Dot5KCL._AC_SX522_.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Samsung S21 plus</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                </div>
-                            </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> 
-                         
-                            <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
+            <label for="">Usuario</label>
+            <input type="text" id="nomUsu">
+            
+            <label for="">Password</label>
+            <input type="password" id="passUsu">
         
-                            <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://media.ldlc.com/r1600/ld/products/00/05/81/97/LD0005819758_1.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Iphone 12 pro max</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                </div>
+            <div id="mensaje">
+        
+            </div>
+        
+            <button onclick="validar()">Enviar</button>
+            <button onclick="template()">Template</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU8GDk-GPWTwfQ2iWC3rcOcTI3QgcwLuzSxMeXAfPKjSIq0TETdZPXAxw1KDLb0mt-cUk&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Samsung S20Plus</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
                             </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
-                            <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://m.media-amazon.com/images/I/61aGanMnfFL._AC_SL1500_.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Motorola RAZR</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> </div>
-                                </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://falabella.scene7.com/is/image/FalabellaPE/17533018_1" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Samsung S10 Plus</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
                             </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
-                            <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://www.irrompibles.net/irrwp/wp-content/uploads/2020/10/motorola-one-fusion_Dark-Emerald_COMBO-scaled.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Motorola One Fusion</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.shoptize.com/es/images/14371927/400/100/1/apple-iphone-12-128gb-purpura-libre.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Iphone 12</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
                             </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
-                            <div class="price-wrap"> <span class="price h5">$999</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://img.global.news.samsung.com/latin/wp-content/uploads/2020/02/Galaxy-S20-S20-Plus-S20-Ultra-2.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Samsung S20 Plus</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                </div>
-                            </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
-                            <div class="price-wrap"> <span class="price h5">$399</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
-                </div>
-                <div class="col-md-4">
-                    <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"><img src="https://assets.swappie.com/iphone11provihreaCC88.jpg"></a>
-                        <figcaption class="info-wrap">
-                            <div class="row">
-                                <div class="col-md-8"> <a href="#" class="title" data-abc="true">Iphone 11S</a> </div>
-                                <div class="col-md-4">
-                                    <div class="rating text-right"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                </div>
-                            </div>
-                        </figcaption>
-                        <div class="buttons d-flex flex-row">
-                          <div class="cart"><i class="fa fa-shopping-cart"></i></div> <button class="btn btn-success cart-button px-5"><span class="dot">1</span>Add to cart </button>
-                      </div>
-                        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right" data-abc="true"> Buy now </a>
-                            <div class="price-wrap"> <span class="price h5">$599</span> <br> <small class="text-success">Free shipping</small> </div>
-                        </div>
-                    </figure>
+                          </div>
+                    </div>
                 </div>
             </div>
-          </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://onemobile.ec/wp-content/uploads/2021/04/iPhone-11-Mobile-Store-Ecuador3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Iphone 11 Pro Max</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://falabella.scene7.com/is/image/FalabellaPE/17218890?wid=423&hei=423&qlt=70&crop=0,0,0,0" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Motorola Razr</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://falabella.scene7.com/is/image/Falabella/15227588_1" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Motorola Moto G20</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary botonCompra">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            
 
 
 
@@ -206,26 +175,32 @@
           <div class="app-title">
             <span>Contacto</span>
             <span>Mariano Villalonga</span>
+            <span id="usuario"></span>
           </div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME" value="Mariano Villalonga">
-            </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="Nombre">
-            </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="E-Mail">
-            </div>
-            <div class="app-form-group message">
-              <input class="app-form-control" placeholder="Mensaje">
-            </div>
-            <div class="app-form-group buttons">
-              <button class="app-form-button">Cancelar</button>
-              <button class="app-form-button">Enviar</button>
-            </div>
+                <div class="app-form-group">
+                <input class="app-form-control" placeholder="NAME" value="Mariano Villalonga">
+                </div>
+                <div class="app-form-group">
+                <input class="app-form-control" placeholder="Nombre" name="nombre" id="nombre">
+                </div>
+                <div class="app-form-group">
+                <input class="app-form-control" placeholder="E-Mail" name="email" id="email">
+                </div>
+                <div class="app-form-group message">
+                <input class="app-form-control" placeholder="Mensaje" name="msj" id="msj">
+                </div>
+                <div class="app-form-group buttons">
+                
+                <button type="button" class="btn btn-primary" data-dismiss="modal" name="enviarMsj" id="enviarMsj" onclick="validar()">
+                    Enviar
+                </button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" name="cancelarMsj" id="cancelarMsj">
+                        Cancelar
+                    </button>
+                </div>
           </div>
         </div>
       </div>
@@ -278,18 +253,11 @@
         </section>
         <!-- Footer-->
        
-        <!-- Bootstrap core JS-->
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-        <script src="js/modernizr.js"></script>
         <script src="js/helper.js"></script>
     </body>
 </html>
