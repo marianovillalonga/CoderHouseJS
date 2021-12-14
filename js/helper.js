@@ -135,16 +135,7 @@ const btnAumentarDisminuir = e => {
     e.stopPropagation()
 }
 
+$("#botonSelec").on("change" , function(e){
 
-function validarMensaje(){
-  if($('#nombre').val()==""){
-    alert("Debes agregar el nombre");
-    return false;
-  }else if($('#email').val()==""){
-    alert("Debes agregar el email");
-    return false;
-  }else if($('#msj').val()==""){
-    alert("Debes agregar el msj");
-    return false;
-  }
-}
+    console.log( e.target.value);
+});
