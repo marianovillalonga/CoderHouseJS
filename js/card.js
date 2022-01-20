@@ -20,10 +20,7 @@ const btnAumentarDisminuir = e => {
     e.stopPropagation()
 }
 
-$("#botonSelec").on("change" , function(e){
 
-    console.log( e.target.value);
-});
 
 $(function(){
     var getTxt = $('.content p').text();

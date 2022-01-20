@@ -34,6 +34,7 @@ const pintarCards = data => {
     cards.appendChild(fragment)
 }
 
+
 // Agregar al carrito
 const addCarrito = e => {
     if (e.target.classList.contains('btn-dark')) {
